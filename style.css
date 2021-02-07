@@ -1,0 +1,99 @@
+body{
+	background-color:#ff9292;
+	color :#ad6c80;
+	font-family: Helvetica;
+	font-size:16px;
+}
+
+h2,h3{
+ 	font-family:'Fredoka One', cursive;
+}
+
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	color: #ad6c80;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2{
+	color: #ff9292;
+    font-weight: bolder;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+a{
+	font-family: Helvetica;
+	text-decoration: none;
+	color:#ad6c80;
+	font-weight: bolder;
+}
+
+a:hover{
+	color:#f6f5f5;
+}
+
+.button {
+  background-color: #ff9292;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.container{
+	width: 700px
+	margin:40px auto;
+	text-align: center;
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: #fcd1d1;
+	padding: 40px
+	box-shadow: 0px 10px 30px rgba(0,0,0,10%);
+	border-radius:10px;
+	margin:20px 10px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius:50%;
+	border-color: #ff9292;
+}
+
+.btn-blue:hover{
+	background-color:black
+	color:white;
+}
+.logo{
+	color:#fcd1d1;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display: inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size : 50px
+	color:rgb(230,230,230);
+}
